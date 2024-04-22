@@ -1,5 +1,19 @@
-
 #campus.py
+'''*********************************************************************************************************************************
+# Name: Anna Bowers, Alyssa Battaglia, Duncan Ward
+# email: bowersas@mail.uc.edu, battagaa@mail.uc.edu, ward2dc@mail.uc.edu 
+# Assignment Number: Final Project
+# Due Date: 4/23/24
+# Course/Section: IS4010-001
+# Semester/Year: Spring 2024
+# Brief Description of the assignment: This is our final project for this class
+
+# Citations: https://www.quora.com/How-do-you-print-an-image-with-code-on-Python, chat gpt "fix my indenting", 
+https://claude.ai/chat/d278c76d-f5e5-4ff7-89eb-20529d9da606: prompt, solve error surroudning,
+https://stackoverflow.com/questions/68823738/decrypting-a-json-dictionary-to-be-altered-python,
+https://www.geeksforgeeks.org/encrypt-and-decrypt-files-using-python/
+# Anything else that's relevant: This was lowkey fun 
+*********************************************************************************************************************************'''
 import json
 
 def decode_fox_category(english_file_path, json_file_path):
@@ -20,5 +34,5 @@ def decode_fox_category(english_file_path, json_file_path):
         line_number = int(line_number)
         if 0 <= line_number < len(english_words):
             decoded_words.append(english_words[line_number].strip())
-
+    # Give us the location(s) on campus
     return decoded_words
