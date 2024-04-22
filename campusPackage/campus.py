@@ -3,6 +3,11 @@
 import json
 
 def decode_fox_category(english_file_path, json_file_path):
+    '''
+    Takes a text and json file and uses the json file numbers to decode the lines from the text file. Specific to the group Fox.
+    @param: english_file_path: The txt file to use, json_file_path: the json file to use
+    @return: decoded_words: the decoded message based on the two files.
+    '''
     with open(english_file_path, "r") as english_file:
         english_words = english_file.readlines()
 
