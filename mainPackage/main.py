@@ -11,6 +11,6 @@ if __name__ == "__main__":
     fox_words = decode_fox_category("UCEnglish.txt", "EncryptedGroupHints Spring 2024 Section 001-1.json")
     print("Our location on campus is:")
     print(' '.join(fox_words))
-    image= Image.open('groupPic.png')
+    image= Image.open('group_pic1.png')
     image.show()
     
